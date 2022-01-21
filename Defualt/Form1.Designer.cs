@@ -50,7 +50,7 @@ namespace Defualt
             this.sub_1 = new System.Windows.Forms.Button();
             this.sub_c = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.textBox = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -67,6 +67,7 @@ namespace Defualt
             this.but_7.TabIndex = 0;
             this.but_7.Text = "7";
             this.but_7.UseVisualStyleBackColor = true;
+            this.but_7.Click += new System.EventHandler(this.but_0_click);
             // 
             // sub_del
             // 
@@ -87,6 +88,7 @@ namespace Defualt
             this.but_9.TabIndex = 2;
             this.but_9.Text = "9";
             this.but_9.UseVisualStyleBackColor = true;
+            this.but_9.Click += new System.EventHandler(this.but_0_click);
             // 
             // but_8
             // 
@@ -97,6 +99,7 @@ namespace Defualt
             this.but_8.TabIndex = 3;
             this.but_8.Text = "8";
             this.but_8.UseVisualStyleBackColor = true;
+            this.but_8.Click += new System.EventHandler(this.but_0_click);
             // 
             // but_5
             // 
@@ -107,6 +110,7 @@ namespace Defualt
             this.but_5.TabIndex = 8;
             this.but_5.Text = "5";
             this.but_5.UseVisualStyleBackColor = true;
+            this.but_5.Click += new System.EventHandler(this.but_0_click);
             // 
             // but_6
             // 
@@ -117,6 +121,7 @@ namespace Defualt
             this.but_6.TabIndex = 7;
             this.but_6.Text = "6";
             this.but_6.UseVisualStyleBackColor = true;
+            this.but_6.Click += new System.EventHandler(this.but_0_click);
             // 
             // sum_m
             // 
@@ -137,6 +142,7 @@ namespace Defualt
             this.but_4.TabIndex = 5;
             this.but_4.Text = "4";
             this.but_4.UseVisualStyleBackColor = true;
+            this.but_4.Click += new System.EventHandler(this.but_0_click);
             // 
             // but_2
             // 
@@ -147,6 +153,7 @@ namespace Defualt
             this.but_2.TabIndex = 13;
             this.but_2.Text = "2";
             this.but_2.UseVisualStyleBackColor = true;
+            this.but_2.Click += new System.EventHandler(this.but_0_click);
             // 
             // but_3
             // 
@@ -157,6 +164,7 @@ namespace Defualt
             this.but_3.TabIndex = 12;
             this.but_3.Text = "3";
             this.but_3.UseVisualStyleBackColor = true;
+            this.but_3.Click += new System.EventHandler(this.but_0_click);
             // 
             // sub_p
             // 
@@ -177,6 +185,7 @@ namespace Defualt
             this.but_1.TabIndex = 10;
             this.but_1.Text = "1";
             this.but_1.UseVisualStyleBackColor = true;
+            this.but_1.Click += new System.EventHandler(this.but_0_click);
             // 
             // sub_z
             // 
@@ -248,20 +257,20 @@ namespace Defualt
             this.label1.TabIndex = 21;
             this.label1.Text = "Место под рекламую ";
             // 
-            // textBox1
+            // textBox
             // 
-            this.textBox1.Font = new System.Drawing.Font("Arial Black", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(5, 12);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(166, 34);
-            this.textBox1.TabIndex = 22;
+            this.textBox.Font = new System.Drawing.Font("Arial Black", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox.Location = new System.Drawing.Point(5, 12);
+            this.textBox.Name = "textBox";
+            this.textBox.Size = new System.Drawing.Size(166, 34);
+            this.textBox.TabIndex = 22;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(188, 333);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.textBox);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.sub_c);
             this.Controls.Add(this.sub_1);
@@ -312,7 +321,7 @@ namespace Defualt
         private System.Windows.Forms.Button but_8;
         private System.Windows.Forms.Button but_9;
         private System.Windows.Forms.Button sub_del;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox textBox;
     }
 }
 

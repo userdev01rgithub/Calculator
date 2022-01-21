@@ -19,7 +19,8 @@ namespace Defualt
 
         private void but_0_click(object sender, EventArgs e)
         {
-            
+
+            textBox.Text += (sender as Button).Text;
         }
 
     }
