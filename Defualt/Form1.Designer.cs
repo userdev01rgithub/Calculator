@@ -61,13 +61,12 @@ namespace Defualt
             // but_7
             // 
             this.but_7.Font = new System.Drawing.Font("Arial Black", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.but_7.Location = new System.Drawing.Point(5, 107);
+            this.but_7.Location = new System.Drawing.Point(5, 116);
             this.but_7.Name = "but_7";
             this.but_7.Size = new System.Drawing.Size(34, 31);
             this.but_7.TabIndex = 0;
             this.but_7.Text = "7";
             this.but_7.UseVisualStyleBackColor = true;
-            this.but_7.Click += new System.EventHandler(this.button1_Click);
             // 
             // sub_del
             // 
@@ -82,7 +81,7 @@ namespace Defualt
             // but_9
             // 
             this.but_9.Font = new System.Drawing.Font("Arial Black", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.but_9.Location = new System.Drawing.Point(91, 107);
+            this.but_9.Location = new System.Drawing.Point(88, 101);
             this.but_9.Name = "but_9";
             this.but_9.Size = new System.Drawing.Size(34, 31);
             this.but_9.TabIndex = 2;
@@ -102,7 +101,7 @@ namespace Defualt
             // but_5
             // 
             this.but_5.Font = new System.Drawing.Font("Arial Black", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.but_5.Location = new System.Drawing.Point(48, 153);
+            this.but_5.Location = new System.Drawing.Point(45, 152);
             this.but_5.Name = "but_5";
             this.but_5.Size = new System.Drawing.Size(34, 31);
             this.but_5.TabIndex = 8;
@@ -142,7 +141,7 @@ namespace Defualt
             // but_2
             // 
             this.but_2.Font = new System.Drawing.Font("Arial Black", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.but_2.Location = new System.Drawing.Point(48, 199);
+            this.but_2.Location = new System.Drawing.Point(51, 204);
             this.but_2.Name = "but_2";
             this.but_2.Size = new System.Drawing.Size(34, 31);
             this.but_2.TabIndex = 13;
@@ -218,7 +217,7 @@ namespace Defualt
             this.but_0.TabIndex = 15;
             this.but_0.Text = "0";
             this.but_0.UseVisualStyleBackColor = true;
-            this.but_0.Click += new System.EventHandler(this.button20_Click);
+            this.but_0.Click += new System.EventHandler(this.but_0_click);
             // 
             // sub_1
             // 
@@ -239,7 +238,6 @@ namespace Defualt
             this.sub_c.TabIndex = 20;
             this.sub_c.Text = "C";
             this.sub_c.UseVisualStyleBackColor = true;
-            this.sub_c.Click += new System.EventHandler(this.button6_Click);
             // 
             // label1
             // 
@@ -249,7 +247,6 @@ namespace Defualt
             this.label1.Size = new System.Drawing.Size(117, 13);
             this.label1.TabIndex = 21;
             this.label1.Text = "Место под рекламую ";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // textBox1
             // 
@@ -258,7 +255,6 @@ namespace Defualt
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(166, 34);
             this.textBox1.TabIndex = 22;
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // Form1
             // 
@@ -288,7 +284,6 @@ namespace Defualt
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Name = "Form1";
             this.Text = "Form1";
-            this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
