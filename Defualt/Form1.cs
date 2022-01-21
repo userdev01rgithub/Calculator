@@ -23,5 +23,11 @@ namespace Defualt
             textBox.Text += (sender as Button).Text;
         }
 
+        string mathOp; // Для математических операций
+
+        private void MathOperationSelect(object sender, EventArgs e)
+        {
+            
+        }
     }
 }

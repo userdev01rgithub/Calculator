@@ -78,6 +78,7 @@ namespace Defualt
             this.sub_del.TabIndex = 1;
             this.sub_del.Text = "/";
             this.sub_del.UseVisualStyleBackColor = true;
+            this.sub_del.Click += new System.EventHandler(this.MathOperationSelect);
             // 
             // but_9
             // 
@@ -132,6 +133,7 @@ namespace Defualt
             this.sum_m.TabIndex = 6;
             this.sum_m.Text = "-";
             this.sum_m.UseVisualStyleBackColor = true;
+            this.sum_m.Click += new System.EventHandler(this.MathOperationSelect);
             // 
             // but_4
             // 
@@ -175,6 +177,7 @@ namespace Defualt
             this.sub_p.TabIndex = 11;
             this.sub_p.Text = "+";
             this.sub_p.UseVisualStyleBackColor = true;
+            this.sub_p.Click += new System.EventHandler(this.MathOperationSelect);
             // 
             // but_1
             // 
@@ -216,6 +219,7 @@ namespace Defualt
             this.sub_x.TabIndex = 16;
             this.sub_x.Text = "X";
             this.sub_x.UseVisualStyleBackColor = true;
+            this.sub_x.Click += new System.EventHandler(this.MathOperationSelect);
             // 
             // but_0
             // 
