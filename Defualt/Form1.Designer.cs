@@ -268,6 +268,7 @@ namespace Defualt
             this.textBox.Name = "textBox";
             this.textBox.Size = new System.Drawing.Size(166, 34);
             this.textBox.TabIndex = 22;
+            this.textBox.TextChanged += new System.EventHandler(this.textBox_TextChanged);
             // 
             // Form1
             // 
